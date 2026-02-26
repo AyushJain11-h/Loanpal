@@ -133,3 +133,27 @@ Auto-generated upon loan approval and contains:
 ```bash
 git clone https://github.com/your-username/loanpal.git
 cd loanpal
+
+# 🧪 **Setup & Run Locally**
+
+## 2️⃣ **Install Dependencies**
+```bash
+npm install
+
+3️⃣ Setup Environment Variables
+Create a .env file in the root directory:
+
+VITE_SUPABASE_URL=your_supabase_url
+VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+
+4️⃣ Run the Application
+npm run dev
+
+📌 Future Enhancements
+
+Admin dashboard
+Multi-bank loan offers
+EMI calculator
+WhatsApp / Email notifications
+Credit score integration
+Support ticket system
