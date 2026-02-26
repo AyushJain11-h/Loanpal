@@ -91,3 +91,45 @@ src/
 │
 └── main.tsx
 
+
+# 🔁 **User Flow**
+
+1. User signs up or logs in using **secure authentication**
+2. User applies for a loan via the **AI-powered chatbot**
+3. AI evaluates loan details and eligibility
+4. User receives one of the following outcomes:
+   - ✅ **Approved** → Sanction letter is generated
+   - ❌ **Rejected** → Clear rejection reason is shown
+5. Users can download the sanction letter anytime
+6. All applications are visible in **Profile → Loan History**
+
+---
+
+# 🔐 **Authentication & Security**
+
+- Supabase email/password authentication  
+- Protected routes (**Apply**, **Profile**)  
+- Data accessible only to authenticated users  
+- User-specific data isolation  
+
+---
+
+# 📄 **Sanction Letter (PDF)**
+
+Auto-generated upon loan approval and contains:
+- Loan amount  
+- EMI  
+- Interest rate  
+- Tenure  
+- Validity date  
+
+📥 **Downloadable anytime from the Profile page**
+
+---
+
+# 🧪 **Setup & Run Locally**
+
+## 1️⃣ **Clone the Repository**
+```bash
+git clone https://github.com/your-username/loanpal.git
+cd loanpal
